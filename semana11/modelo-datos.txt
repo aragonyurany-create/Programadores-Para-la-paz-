@@ -1,0 +1,25 @@
+MODELO DE DATOS PLATAFORMA COMUNITARIA
+
+Entidad: Causa
+
+Campos principales:
+- id
+- titulo
+- descripcion
+- fecha_creacion
+- estado
+
+Propósito:
+Guardar las causas comunitarias creadas por los usuarios y permitir su seguimiento dentro de la plataforma.
+
+
+Entidad: Apoyo
+
+Campos principales:
+- id
+- causa_id
+- usuario
+- fecha
+
+Propósito:
+Registrar los apoyos realizados por la comunidad para conocer la participación en cada causa.

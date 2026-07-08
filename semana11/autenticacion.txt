@@ -1,0 +1,9 @@
+El login es el proceso mediante el cual una aplicación identifica a un usuario antes de permitirle acceder a ciertas funciones.
+
+Las rutas protegidas son importantes porque pueden contener información privada o acciones que requieren permisos especiales.
+
+La autenticación permite controlar quién puede ingresar y qué acciones puede realizar cada usuario.
+
+No se deben exponer contraseñas, documentos de identidad, teléfonos, direcciones, tokens ni claves de API.
+
+Proteger la información ayuda a mantener la seguridad y privacidad de la comunidad.
