@@ -1,0 +1,13 @@
+Las dos tareas del backlog que realizaría primero son:
+
+1. Crear el registro de peticiones.
+2. Crear la revisión de solicitudes.
+
+Son importantes porque permiten recibir las solicitudes de la comunidad y hacer seguimiento al proceso.
+
+Una tarea está terminada cuando:
+
+- Funciona correctamente.
+- Fue probada.
+- Tiene evidencia del trabajo realizado.
+- Está registrada en GitHub.

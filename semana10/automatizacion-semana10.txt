@@ -1,0 +1,21 @@
+Evento que activa el flujo:
+
+Cuando se registra una nueva petición en la plataforma.
+
+Acción:
+
+n8n procesa el evento y envía una notificación por Telegram.
+
+Mensaje enviado:
+
+"Nuevo reporte recibido. Revisar la plataforma."
+
+Información que no debe enviarse:
+
+- Nombres completos.
+- Documentos de identidad.
+- Direcciones.
+- Teléfonos.
+- Contraseñas.
+- Tokens de Telegram.
+- Claves de API.
