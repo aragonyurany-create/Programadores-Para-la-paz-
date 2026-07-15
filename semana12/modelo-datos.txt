@@ -1,0 +1,19 @@
+Modelo de Datos de "Petición en 3 Clics"
+
+Entidad 1: Causa
+Atributos:
+- id (Clave primaria única, entero autoincremental)
+- titulo (Texto corto, ej: "Arreglo de la vía principal")
+- descripcion (Texto largo explicativo de la necesidad)
+- fecha (Fecha y hora de creación de la iniciativa)
+
+Propósito: Sirve para registrar de manera ordenada las diferentes problemáticas o iniciativas que la comunidad propone resolver, centralizando la información clave de cada petición.
+
+Entidad 2: Apoyo
+Atributos:
+- id (Clave primaria única, entero autoincremental)
+- causa_id (Clave foránea que conecta este apoyo a una Causa específica)
+- nombre (Texto con el nombre o seudónimo del firmante, aplicando minimización de datos)
+- fecha (Fecha y hora en la que se registró el apoyo)
+
+Propósito: Permite llevar un registro cuantitativo, fidedigno e individual de los respaldos que recibe cada causa, evitando la duplicidad de firmas y validando el apoyo colectivo sin vulnerar la privacidad de los participantes.

@@ -1,0 +1,7 @@
+Flujo del Sistema "Petición en 3 Clics"
+
+1. Creación: Un ciudadano o líder comunitario ingresa a la plataforma, completa un formulario simple y crea una nueva causa social o comunitaria.
+2. Almacenamiento: La causa, su descripción y los datos básicos requeridos quedan registrados y estructurados en la base de datos del sistema.
+3. Difusión y Apoyo: El sistema genera un enlace público de la causa para que otros ciudadanos ingresen y registren de forma segura su firma o respaldo digital.
+4. Conteo e Integración: El sistema contabiliza y consolida en tiempo real la cantidad de apoyos recibidos para esa causa específica.
+5. Generación de PDF: Al alcanzar la meta o solicitarlo el creador, el sistema genera de forma automática un documento PDF formalizado con la petición redactada y el consolidado cuantitativo de respaldos, listo para ser presentado ante las entidades pertinentes.

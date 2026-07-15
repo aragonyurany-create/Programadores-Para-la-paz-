@@ -1,0 +1,12 @@
+Propuesta de Automatización para Procesos Comunitarios
+
+- Herramienta elegida: n8n conectando la Base de Datos con un Canal de Telegram.
+
+- Evento que activa la automatización (Trigger):
+  Cada vez que un ciudadano añade un nuevo registro ("Apoyo") a una causa en la base de datos, o cuando una causa alcanza una meta específica de firmas (ej: 50 apoyos).
+
+- Mensaje que se envía de forma automática:
+  "¡Nueva meta alcanzada! La causa '[Título de la causa]' ya cuenta con [Número de apoyos] respaldos comunitarios registrados en la plataforma. Sigamos sumando voluntades."
+
+- Información reservada (Que NO debe enviarse por seguridad y privacidad):
+  Bajo el principio de minimización de datos, jamás se enviarán por el canal de mensajería nombres completos, números de cédula, direcciones residenciales, correos electrónicos, teléfonos o cualquier comentario sensible o personal de quienes apoyan la iniciativa.
